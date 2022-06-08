@@ -27,3 +27,19 @@ header ul li:hover a {
     color: #1B1A17;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 481px) {
+    header ul li {
+        display: block;
+    }
+    header ul li:hover {
+        display: block;
+    }
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
