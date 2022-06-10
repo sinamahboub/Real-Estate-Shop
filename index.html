@@ -2,137 +2,49 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>صفحه اصلی</title>
-    <link rel="stylesheet" href="./assets/dist/style.css">
+    <link rel="stylesheet" href="./assets/dist/style.css" />
+
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- vazir font css -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet" />
 </head>
 
-<body>
-
+<body id="top">
     <!-- header -->
     <header>
-        <nav class="menu-nav fixed-header">
-            <ul>
-                <li><a href="./index.html">صفحه اصلی</a></li>
-                <li><a href="#gy-img">نمونه ها</a></li>
-                <li><a href="">درباره ما</a></li>
+        <nav class="fixed-header">
+            <a class="logo">املاک مهر</a>
+            <ul id="myLinks">
+                <li class="ml-mu-li"><a href="./index.html">صفحه اصلی</a></li>
+                <li class="ml-mu-li"><a href="">نمونه کار ها</a></li>
+                <li class="ml-mu-li"><a href="">درباره ما</a></li>
             </ul>
+
+            <a href="javascript:void(0);" class="icon" onclick="topNav()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
     </header>
-    <!-- /header -->
 
     <!-- main -->
-    <main>
-        <div class="grid-container" id="top">
-            <div class="grid-item-1">
-                <div class="card">
-                    <img src="./assets/images/photo-men.png" width="200px" height="200px" alt="" class="card-img">
-                    <h2 class="card-title">لورم ایپوسوم</h2>
-                    <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
-                </div>
-            </div>
-            <div class="grid-item-2">
-                <div class="card">
-                    <img src="./assets/images/photo-men.png" width="200px" height="200px" alt="" class="card-img">
-                    <h2 class="card-title">لورم ایپوسوم</h2>
-                    <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
-                </div>
-            </div>
-            <div class="grid-item-3">
-                <div class="card">
-                    <img src="./assets/images/photo-men.png" width="200px" height="200px" alt="" class="card-img">
-                    <h2 class="card-title">لورم ایپوسوم</h2>
-                    <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
-                </div>
-            </div>
-        </div>
+    <main></main>
 
-        <div class="container-img" id="gy-img">
-            <div class="big">
-                <img src="https://images.unsplash.com/photo-1556783900-2ebe375c20fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-            <div class="vertical">
-                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-            <div>
-                <img src="https://images.unsplash.com/photo-1548407260-da850faa41e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-            <div class="horizontal">
-                <img src="https://images.unsplash.com/photo-1548506923-99f6e89852fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-            <div class="vertical">
-                <img src="https://images.unsplash.com/photo-1547903006-2845abe6e3c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-            <div>
-                <img src="https://images.unsplash.com/photo-1547707981-eeb6a7ac3c25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-            <div class="horizontal">
-                <img src="https://images.unsplash.com/photo-1547297355-7d839b27ffb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-            <div class="big">
-                <img src="https://images.unsplash.com/photo-1511534520542-e0fb6d4a4df6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-            <div>
-                <img src="https://images.unsplash.com/photo-1546213642-d79f08fa2169?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-            <div class="vertical">
-                <img src="https://images.unsplash.com/photo-1546260863-51e27ff43c68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-            <div>
-                <img src="https://images.unsplash.com/photo-1546046142-8f8fae7de558?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-            <div>
-                <img src="https://images.unsplash.com/photo-1545844895-1bf88a0213a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-            <div>
-                <img src="https://images.unsplash.com/photo-1545862434-853c6375b9f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
-            </div>
-        </div>
-    </main>
-    <!-- /main -->
+    <footer>
 
-    <footer></footer>
-    <script data-cfasync="false" type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
-    <script>
-        var $a = $.noConflict(true);
-        $a(window).scroll(function() {
-            if ($a(window).scrollTop() >= 300) {
-                $a('.menu-nav').addClass('fixed-header');
-            } else {
-                $a('.menu-nav').removeClass('fixed-header');
-            }
-        });
+        <!-- Button to go to the first page -->
+        <button onclick="topFunction()" id="up-btn" title="برای رفتن به بالای صفحه کلیک کنید"><img src="./assets/images/UP-aw.png" alt="برای رفتن به بالای صفحه کلیک کنید"></button>
+    </footer>
 
-        // ===== Scroll to Top ====
-        const scrollTop = document.getElementById('scrolltop')
-            // When the page is loaded, hide the scroll-to-top button
-        window.onload = () => {
-                scrollTop.style.visibility = "hidden";
-                scrollTop.style.opacity = 0;
-            }
-            // If the page is scrolled more than 200px,
-            // display the scroll-to-top button
-            // Otherwise keep the button hidden
-        window.onscroll = () => {
-            if (window.scrollY > 200) {
-                scrollTop.style.visibility = "visible";
-                scrollTop.style.opacity = 1;
-            } else {
-                scrollTop.style.visibility = "hidden";
-                scrollTop.style.opacity = 0;
-            }
-        };
-    </script>
-    <div id="scrolltop">
-        <a class="top-button" href="#top"><i class="icon-chevron-up"></i></a>
-    </div>
+    <!-- my script -->
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
