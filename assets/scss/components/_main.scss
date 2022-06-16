@@ -1,13 +1,11 @@
-main {
-    margin-top: 57px;
-}
-
-@media only screen and (max-width: 481px) {
-    main {
-        margin-top: 57px;
-    }
-}
-
+// main {
+//     margin-top: 57px;
+// }
+// @media only screen and (max-width: 481px) {
+//     main {
+//         margin-top: 57px;
+//     }
+// }
 #up-btn {
     display: none;
     position: fixed;
@@ -19,7 +17,7 @@ main {
     cursor: pointer;
     padding: 5px;
     border-radius: 100%;
-    background-color: #F0A500;
+    background-color: #f0a500;
     img {
         display: flex;
         align-items: center;

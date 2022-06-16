@@ -22,10 +22,10 @@
 
         // topnav
         function topNav() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
+            var navDY = document.getElementById("myLinks");
+            if (navDY.style.display === "block") {
+                navDY.style.display = "none";
             } else {
-                x.style.display = "block";
+                navDY.style.display = "block";
             }
         }

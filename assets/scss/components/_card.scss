@@ -1,0 +1,35 @@
+.card-container {
+    display: grid;
+    grid-template-areas: "c1 c1 c1 c1 c2 c2 c2 c2 c3 c3 c3 c3";
+    gap: 5px;
+}
+
+.card {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+// .shadow {}
+.shadow:hover {
+    transition: 0.3s ease;
+    box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.14), 0 2px 7px 1px rgba(0, 0, 0, 0.12), 0 3px 3px -2px rgba(0, 0, 0, 0.3);
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.card-1 {
+    grid-area: c1;
+}
+
+.card-2 {
+    grid-area: c2;
+}
+
+.card-3 {
+    grid-area: c3;
+}
